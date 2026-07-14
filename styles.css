@@ -120,7 +120,7 @@ footer {
 .hero h1 {
   margin: 16px 0 8px;
   font-family: "Newsreader", serif;
-  font-size: clamp(3.8rem, 7vw, 6.7rem);
+  font-size: clamp(3.15rem, 5.7vw, 5.35rem);
   font-weight: 500;
   letter-spacing: -0.055em;
   line-height: 0.9;
@@ -182,7 +182,7 @@ footer {
 
 .research-fields {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
@@ -411,7 +411,7 @@ footer strong {
   }
 
   .hero h1 {
-    font-size: clamp(3.6rem, 16vw, 5.5rem);
+    font-size: clamp(3.2rem, 14vw, 4.8rem);
   }
 
   .research-fields {
