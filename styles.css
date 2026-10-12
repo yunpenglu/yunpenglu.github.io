@@ -1,10 +1,10 @@
 :root {
-  --bg: #14191d;
-  --surface: #1a2025;
-  --ink: #eeeae3;
-  --muted: #9ea5aa;
-  --accent: #aebac0;
-  --line: #343b40;
+  --bg: #20262a;
+  --surface: #252c31;
+  --ink: #eeece7;
+  --muted: #aab1b4;
+  --accent: #9babb3;
+  --line: #41494e;
 }
 
 *,
@@ -93,7 +93,7 @@ footer {
 
 .site-header .nav-cv {
   padding: 7px 13px;
-  border: 1px solid #596168;
+  border: 1px solid var(--accent);
   border-radius: 2px;
   color: var(--ink);
 }
@@ -144,7 +144,7 @@ footer {
 .bio {
   max-width: 670px;
   margin: 0;
-  color: #c3c4c3;
+  color: #cfd1cf;
   font-family: "Newsreader", serif;
   font-size: clamp(1.2rem, 2vw, 1.48rem);
   line-height: 1.5;
@@ -219,7 +219,7 @@ footer {
 
 .paper-list,
 .teaching-section ul {
-  border-top: 1px solid #596168;
+  border-top: 1px solid var(--accent);
 }
 
 .paper {
@@ -256,18 +256,18 @@ footer {
 .status {
   margin-top: 2px;
   padding-left: 13px;
-  border-left: 1px solid #65727a;
+  border-left: 1px solid var(--accent);
 }
 
 .progress-section {
-  background: transparent;
-  box-shadow: none;
-  clip-path: none;
+  background: var(--surface);
+  box-shadow: 0 0 0 100vmax var(--surface);
+  clip-path: inset(0 -100vmax);
 }
 
 .project-grid {
   display: block;
-  border-top: 1px solid #596168;
+  border-top: 1px solid var(--accent);
 }
 
 .project-grid article {
@@ -329,6 +329,12 @@ footer {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.teaching-section {
+  background: var(--surface);
+  box-shadow: 0 0 0 100vmax var(--surface);
+  clip-path: inset(0 -100vmax);
 }
 
 .teaching-section li {
